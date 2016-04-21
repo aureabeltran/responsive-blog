@@ -1,10 +1,58 @@
 /* Inserta tu codigo aqui */
 header{
 	background-color: #1E122A;
+	padding: 1%;
+}
+header ol{
+	text-align: right;
+	font-style: italic;
+	font-family: open sans;
+	margin-top: 20px;
+}
+a{
+	text-decoration: none;
+}
+header li{
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 15px;
+	color: white;
+}
+section{
+	background-color: #443652;
+	padding: 3%;
 }
 .header-image{
 	background-image: url(../image/header-image.jpg);
 	background-size: cover;
+	height: 40%;
+	padding: 8% 15% 8% 15% !important;
+	width: 100%;
+}
+.spring-came{
+	padding: 10% 5% 10% 5%;
+	background-color: #1E122A;
+	text-align: center;
+}
+section h1{
+	font-family: Courgette;
+	color: #EAB35E;
+	font-weight: bold;
+	font-size: 80px;
+}
+section li{
+	display: inline-block;
+	font-style: italic;
+	color: white;
+	margin: 20px 5px 20px 5px;
+}
+
+
+footer{
+	background-color: #2A1F34;
+	color: white;
+	text-align: center;
+	padding: 3% 0% 3% 0%;
 }
 /* Responsive */
 
