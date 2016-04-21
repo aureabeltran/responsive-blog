@@ -77,9 +77,6 @@ h3{
 	text-align: center;
 	color: white;
 }
-.buscar{
-	padding: 
-}
 input{
 	border: 30px solid #2A1F34;
 	background-color: #443652;
@@ -92,7 +89,7 @@ input{
 	border-radius: 10px;
 }
 .iconos-caja{
-	margin-left: 30%;
+	margin-left: 5%;
 }
 .iconos{
 	background-color: #443652;
@@ -104,6 +101,7 @@ input{
 	text-align: center;
 	padding: 5px;
 	margin-right: 10px;
+	display: inline-block !important;
 }
 .iconos i{
 	color: white;
