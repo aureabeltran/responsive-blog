@@ -30,7 +30,7 @@ section{
 	width: 100%;
 }
 .spring-came{
-	padding: 10% 5% 10% 5%;
+	padding: 10% 5% 5% 5%;
 	background-color: #1E122A;
 	text-align: center;
 }
@@ -44,10 +44,71 @@ section li{
 	display: inline-block;
 	font-style: italic;
 	color: white;
-	margin: 20px 5px 20px 5px;
+	margin: 50px 5px 0px 5px;
 }
-
-
+.images{
+	padding-bottom: 10%;
+	background-color: #2A1F34;
+}
+h4{
+	font-family: Courgette;
+	color: #EAB35E;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.italic{
+	font-style: italic;
+	text-align: center;
+}
+p{
+	color: white;
+	padding: 10px 20px 10px 20px !important;
+}
+.perfil{
+	background-color: #2A1F34;
+	padding: 5% 0% 10% 0%;
+}
+h3{
+	font-family: open sans;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+.buscar{
+	padding: 
+}
+input{
+	border: 30px solid #2A1F34;
+	background-color: #443652;
+	color: white;
+	padding: 15px 115px 15px 15px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+.iconos-caja{
+	margin-left: 30%;
+}
+.iconos{
+	background-color: #443652;
+	height: 30px;
+	width: 30px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	text-align: center;
+	padding: 5px;
+	margin-right: 10px;
+}
+.iconos i{
+	color: white;
+	font-style: normal;
+}
 footer{
 	background-color: #2A1F34;
 	color: white;
