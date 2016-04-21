@@ -1,5 +1,11 @@
 /* Inserta tu codigo aqui */
-
+header{
+	background-color: #1E122A;
+}
+.header-image{
+	background-image: url(../image/header-image.jpg);
+	background-size: cover;
+}
 /* Responsive */
 
 @media screen and (max-width : 920px) {
