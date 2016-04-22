@@ -1,6 +1,6 @@
-/* Inserta tu codigo aqui */
+/* header */
 header{
-	background-color: #1E122A;
+	background-color: #2A1F34;
 	padding: 1%;
 }
 header ol{
@@ -9,15 +9,26 @@ header ol{
 	font-family: open sans;
 	margin-top: 20px;
 }
-a{
+header a{
 	text-decoration: none;
-}
-header li{
-	text-decoration: none;
-	display: inline-block;
-	margin-right: 15px;
 	color: white;
 }
+header a:hover{
+	color: #971E41;
+}
+.burger{
+	float: right;
+	font-size: 50px;
+	color: white;
+	display: none;
+}
+header li{
+	float: right;
+	text-decoration: none;
+	margin-right: 15px;
+	list-style: none;
+}
+/* section */
 section{
 	background-color: #443652;
 	padding: 3%;
@@ -31,7 +42,7 @@ section{
 }
 .spring-came{
 	padding: 10% 5% 5% 5%;
-	background-color: #1E122A;
+	background-color: #2A1F34;
 	text-align: center;
 }
 section h1{
@@ -70,6 +81,9 @@ p{
 .perfil{
 	background-color: #2A1F34;
 	padding: 5% 0% 10% 0%;
+}
+iframe{
+	width: 100%;
 }
 h3{
 	font-family: open sans;
@@ -116,9 +130,26 @@ footer{
 /* Responsive */
 
 @media screen and (max-width : 920px) {
-
 }
 
 @media screen and (max-width: 600px) {
+	.burger{
+		display: block !important;
+	}
+	.menu{
+		display: none;
+	}
+	.col-3{
+		width: 41.666667% !important;
+	}
+	.col-4{
+		width: 100% !important;
+	}
+	.col-5{
+		display: none !important;
+	}
+	.col-7{
+		width: 100% !important;
+	}
 
 }
