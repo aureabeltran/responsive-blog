@@ -38,7 +38,7 @@ section{
 	background-size: cover;
 	height: 40%;
 	padding: 8% 15% 8% 15% !important;
-	width: 100%;
+	max-width: 100%;
 }
 .spring-came{
 	padding: 10% 5% 5% 5%;
@@ -101,6 +101,7 @@ input{
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+	max-width: 100%;
 }
 .iconos-caja{
 	margin-left: 5%;
@@ -140,7 +141,7 @@ footer{
 		display: none;
 	}
 	.col-3{
-		width: 41.666667% !important;
+		width: 50% !important;
 	}
 	.col-4{
 		width: 100% !important;
